@@ -4,6 +4,7 @@
 \usepackage[polish]{babel}
 \usepackage{multicol}
 \usepackage{listings}
+\usepackage{tabularx}
 
 \definecolor{keywords}{RGB}{255,0,90}
 \definecolor{comments}{RGB}{81,81,81}
@@ -34,7 +35,7 @@
     Gliwice}
 \date{}
 
-\setbeamercovered{transparent=5}
+\setbeamercovered{transparent=15}
 
 
 \begin{document}
@@ -60,7 +61,9 @@
         \textbf{SFML} to akronim \textbf{Simple and Fast Multimedia Library} \\[20pt]
 
         Jest to wieloplatformowa biblioteka programistyczna ułatwiająca tworzenie gier
-        oraz programów multimedialnych.
+        oraz programów multimedialnych. \\[20pt]
+
+        Autorem jest Laurent Gomila
 
     \end{frame}
 
@@ -97,15 +100,41 @@
 
 
 
-    \begin{frame}[t]{Moduły}\vspace{10pt}
+    \begin{frame}[t]{Moduły}\vspace{40pt}
 
         \begin{enumerate}
-            \item System – obsługuje czas i wątki
-            \item Window – obsługuje okna i interakcję z użytkownikiem
-            \item Graphics – umożliwia renderowanie grafiki
-            \item Audio – dostarcza interfejsu do odtwarzania muzyki i dźwięków
-            \item Network – odpowiedzialny za komunikację sieciową
+            \item \textit{System} – obsługuje czas i wątki
+            \item \textit{Window} – obsługuje okna i interakcję z użytkownikiem
+            \item \textit{Graphics} – umożliwia renderowanie grafiki
+            \item \textit{Audio} – dostarcza interfejsu do odtwarzania muzyki i dźwięków
+            \item \textit{Network} – odpowiedzialny za komunikację sieciową
         \end{enumerate}
+
+    \end{frame}
+
+
+
+    \begin{frame}[t]{Wybrane metody i właściwości klasy sf::RenderWindow}\vspace{4pt}
+
+        \only<1>{
+            Klasa sf::RenderWindow jest najważniejsza, ponieważ dzięki niej możemy
+            stworzyć okno, a następnie wyświetlać zawartość \\[10pt]
+            \begin{center}
+                \includegraphics[scale=0.6]{textures/renderWindow.png}
+            \end{center}
+        }
+
+        \only<2>{
+            \begin{enumerate}
+                \item konstruktor: sf::RenderWindow::RenderWindow( VideoMode, const String&, Uint32, const ContextSettings& ) 
+                \item void clear(const Color &color=Color(0,0,0,255)) 
+                \item void draw(const Drawable &drawable, const RenderStates &states=RenderStates::Default)
+                \item void display()
+                \item void setVerticalSyncEnabled(bool enabled)
+                \item void setFramerateLimit(unsigned int limit)
+
+            \end{enumerate}
+        }
 
     \end{frame}
 
@@ -147,70 +176,31 @@ int main() {
     
 
 
-    \begin{frame}[t]{Functions}\vspace{4pt}
+    \begin{frame}[t]{Tworzenie prostych kształtów}
 
-        \begin{block}{Definition of a Function}
-            \vspace{0.5em}
-                A \textbf{function} $f$ is rule that assigns to each element 
-                $x$ in a set $D$ exactly one element, called $f(x)$, 
-                in a set $E$.
-            \vspace{0.5em}
-        \end{block}
+        \begin{table}
+            \centering
+            \def\arraystretch{2}
+            \newlength\mylength
+            \setlength\mylength{\dimexpr.5\columnwidth-20\tabcolsep-0.5\arrayrulewidth\relax}
+            \begin{tabularx}{\columnwidth}{p{\mylength}||X|X|X}
+                \hline
+                Kształt & Wygląd & Kod & Rysowanie \\\hline
 
-        \vspace{10pt}
-        Set $D$ is called the 
-        \only<1>{ \line(1,0){50} }
-        \only<2>{\textcolor{magenta}{domain}}
-        \only<3>{ \line(1,0){50} }
-        \, of the function. \\[10pt]
+                \bigcirc & \includegraphics[scale=0.3]{textures/circle.png}
+                & \scriptsize{sf::CircleShape circle(50.f);} 
+                & \scriptsize{window.draw(circle);} \\\hline
 
-        Set $E$ is called the 
-        \only<1>{ \line(1,0){50} }
-        \only<2>{ \line(1,0){50} }
-        \only<3>{\textcolor{magenta}{range}}
-        \, of the function.
+                \Box & \includegraphics[scale=0.3]{textures/rect.png}
+                 & \scriptsize{sf::RectangleShape rect(sf::Vector2f(50.f, 50.f));} 
+                 & \scriptsize{window.draw(rect);} \\\hline
 
-    \end{frame}
+                \bigtriangleup & \includegraphics[scale=0.3]{textures/triangle.png} 
+                & \scriptsize{sf::CircleShape triangle(80, 3);} 
+                & \scriptsize{window.draw(triangle);} \\\hline
 
-
-    %\begin{frame}[fragile]{Demonstration}
-    %    \subt{Source code}
-    %    \vspace{50pt}
-    %    \lstinputlisting[label=samplecode]{test.cpp}
-    %\end{frame}
-
-
-
-    
-
-
-
-    \begin{frame}[t]{Parent Functions}\vspace{4pt}
-        You should be able to identify by name and sketch a graph 
-        of each of the following parent functions.
-        \begin{enumerate}
-            \begin{multicols}{3}
-                \item $y=x$
-                \item $y=|x|$
-                \item $y=x^2$
-                \item $y=x^3$
-                \item $y=x^b$
-                \onslide<2->{
-                    \item $y=\sqrt{x}$
-                    \item $y=\sqrt[3]{x}$
-                    \item $y=\frac{1}{x}$
-                    \item $y=2^x$
-                    \item $y=e^x$
-                }
-                \onslide<3->{
-                \item $y=\ln(x)$
-                \item $y=\frac{1}{1+e^{-x}}$
-                \item $y=sinx$
-                \item $y=cosx$
-                \item $y=tanx$
-                }
-            \end{multicols}
-        \end{enumerate}
+            \end{tabularx}
+        \end{table}
 
     \end{frame}
 
