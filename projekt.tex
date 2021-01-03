@@ -1,0 +1,238 @@
+\documentclass[12pt]{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage{multicol}
+\usepackage{listings}
+
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{81,81,81}
+\definecolor{offwhite}{RGB}{249,242,215}
+\definecolor{foreground}{RGB}{255,255,255}
+\definecolor{background}{RGB}{24,24,24}
+\definecolor{title}{RGB}{107,174,214}
+\definecolor{gray}{RGB}{155,155,155}
+\definecolor{subtitle}{RGB}{102,255,204}
+\definecolor{hilight}{RGB}{102,255,204}
+\definecolor{vhilight}{RGB}{255,111,207}
+\definecolor{lolight}{RGB}{155,155,155}
+\setbeamercolor{titlelike}{fg=title}
+\setbeamercolor{subtitle}{fg=subtitle}
+\setbeamercolor{institute}{fg=gray}
+\setbeamercolor{normal text}{fg=foreground,bg=background}
+\setbeamercolor{item}{fg=foreground}
+\setbeamercolor{subitem}{fg=gray}
+\setbeamercolor{itemize/enumerate subbody}{fg=gray}
+\setbeamertemplate{itemize subitem}{{\textendash}}
+\setbeamerfont{itemize/enumerate subbody}{size=\footnotesize}
+\setbeamerfont{itemize/enumerate subitem}{size=\footnotesize}
+
+\title{\Huge{SFML}}
+\subtitle{Biblioteka programistyczna}
+\author{Patryk Sroczyński}
+\institute{\large\textbf{Politechnika Śląska} \\
+    Gliwice}
+\date{}
+
+\setbeamercovered{transparent=5}
+
+
+\begin{document}
+%\metroset{block=fill}
+
+
+
+    \begin{frame}
+
+        \titlepage
+
+    \end{frame}
+
+
+
+    \begin{frame}[t]{Czym jest SFML?}\vspace{20pt}
+
+        \begin{center}
+            \includegraphics[scale=0.5]{textures/logo.png} \\[20pt]
+        \end{center}
+        
+
+        \textbf{SFML} to akronim \textbf{Simple and Fast Multimedia Library} \\[20pt]
+
+        Jest to wieloplatformowa biblioteka programistyczna ułatwiająca tworzenie gier
+        oraz programów multimedialnych.
+
+    \end{frame}
+
+
+    \begin{frame}[t]{Główne właściwości}\vspace{2pt}
+
+        \begin{columns}
+            
+            \column{0.3\textwidth}
+            \includegraphics[scale=0.3]{textures/multimedia.png} \\[20pt]
+            \begin{center}
+                \textbf{Multi-media} \\
+                Zawiera 5 modułów: system, window, graphics, audio i network
+            \end{center}
+            
+
+            \column{0.3\textwidth}
+            \includegraphics[scale=0.3]{textures/multiplatform.png} \\[20pt]
+            \begin{center}
+                \textbf{Multi-platform} \\
+                Można uruchomić oraz skompilować na Windowsie, Linuxie, macOS
+            \end{center}
+
+            \column{0.3\textwidth} \\[28pt]
+            \includegraphics[scale=0.3]{textures/multilanguage.png} \\[20pt]
+            \begin{center}
+                \textbf{Multi-language} \\
+                Głównym językiem jest C++, ale można również zbindować np.: Java, Ruby, Python
+            \end{center}
+
+        \end{columns}
+
+    \end{frame}
+
+
+
+    \begin{frame}[t]{Moduły}\vspace{10pt}
+
+        \begin{enumerate}
+            \item System – obsługuje czas i wątki
+            \item Window – obsługuje okna i interakcję z użytkownikiem
+            \item Graphics – umożliwia renderowanie grafiki
+            \item Audio – dostarcza interfejsu do odtwarzania muzyki i dźwięków
+            \item Network – odpowiedzialny za komunikację sieciową
+        \end{enumerate}
+
+    \end{frame}
+
+
+
+    \begin{frame}[fragile]
+        \frametitle{Program tworzący puste okno}
+        \lstset{language=C++,
+                        basicstyle=\small\ttfamily,
+                        keywordstyle=\color{blue}\ttfamily,
+                        stringstyle=\color{red}\ttfamily,
+                        commentstyle=\color{green}\ttfamily,
+                        morecomment=[l][\color{magenta}]{\#},
+                        numbers=left,
+                        framexrightmargin=0em,
+                        framexleftmargin=0em,
+                        framerule=0pt
+        }
+        \begin{lstlisting}         
+#include <SFML/Graphics.hpp>
+ 
+int main() {
+    sf::RenderWindow window(sf::VideoMode(800, 
+    600), "Tytul");
+
+    while (window.isOpen()) {
+    sf::Event event;
+        while (window.pollEvent(event)) {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }       
+        window.clear();       
+        window.display();
+    }
+}
+
+        \end{lstlisting}
+    \end{frame}
+    
+
+
+    \begin{frame}[t]{Functions}\vspace{4pt}
+
+        \begin{block}{Definition of a Function}
+            \vspace{0.5em}
+                A \textbf{function} $f$ is rule that assigns to each element 
+                $x$ in a set $D$ exactly one element, called $f(x)$, 
+                in a set $E$.
+            \vspace{0.5em}
+        \end{block}
+
+        \vspace{10pt}
+        Set $D$ is called the 
+        \only<1>{ \line(1,0){50} }
+        \only<2>{\textcolor{magenta}{domain}}
+        \only<3>{ \line(1,0){50} }
+        \, of the function. \\[10pt]
+
+        Set $E$ is called the 
+        \only<1>{ \line(1,0){50} }
+        \only<2>{ \line(1,0){50} }
+        \only<3>{\textcolor{magenta}{range}}
+        \, of the function.
+
+    \end{frame}
+
+
+    %\begin{frame}[fragile]{Demonstration}
+    %    \subt{Source code}
+    %    \vspace{50pt}
+    %    \lstinputlisting[label=samplecode]{test.cpp}
+    %\end{frame}
+
+
+
+    
+
+
+
+    \begin{frame}[t]{Parent Functions}\vspace{4pt}
+        You should be able to identify by name and sketch a graph 
+        of each of the following parent functions.
+        \begin{enumerate}
+            \begin{multicols}{3}
+                \item $y=x$
+                \item $y=|x|$
+                \item $y=x^2$
+                \item $y=x^3$
+                \item $y=x^b$
+                \onslide<2->{
+                    \item $y=\sqrt{x}$
+                    \item $y=\sqrt[3]{x}$
+                    \item $y=\frac{1}{x}$
+                    \item $y=2^x$
+                    \item $y=e^x$
+                }
+                \onslide<3->{
+                \item $y=\ln(x)$
+                \item $y=\frac{1}{1+e^{-x}}$
+                \item $y=sinx$
+                \item $y=cosx$
+                \item $y=tanx$
+                }
+            \end{multicols}
+        \end{enumerate}
+
+    \end{frame}
+
+
+
+    \begin{frame}
+
+        \flushleft
+        \huge{Dziękuję za uwagę!}
+
+        \vspace{90pt}
+
+        \large{Bibliografia:} \\
+
+        \textcolor{green}{
+            \url{https://www.sfml-dev.org/} \\
+            \url{https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library} \\
+        }
+        
+
+    \end{frame}
+
+
+
+\end{document}
