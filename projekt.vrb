@@ -1,31 +1,31 @@
-\frametitle{Program tworzący puste okno}
+\frametitle{Prosta gra 4/4}
         \lstset{language=C++,
-                        basicstyle=\small\ttfamily,
+                        basicstyle=\color{black}\tiny\ttfamily,
                         keywordstyle=\color{blue}\ttfamily,
                         stringstyle=\color{red}\ttfamily,
                         commentstyle=\color{green}\ttfamily,
                         morecomment=[l][\color{magenta}]{\#},
                         numbers=left,
+                        firstnumber=90,
+                        numberstyle=\tiny\color{white},
                         framexrightmargin=0em,
                         framexleftmargin=0em,
                         framerule=0pt
         }
-        \begin{lstlisting}
-#include <SFML/Graphics.hpp>
-
-int main() {
-    sf::RenderWindow window(sf::VideoMode(800,
-    600), "Tytul");
-
-    while (window.isOpen()) {
-    sf::Event event;
-        while (window.pollEvent(event)) {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
+        \begin{lstlisting}[backgroundcolor = \color{lightgray}]
+        //Draw
         window.clear();
+
+        window.draw(player);
+
+        for (size_t i = 0; i < enemies.size(); i++)
+            window.draw(enemies[i]);
+
+        for (size_t i = 0; i < projectiles.size(); i++)
+            window.draw(projectiles[i]);
+
         window.display();
     }
+    return 0;
 }
-
         \end{lstlisting}

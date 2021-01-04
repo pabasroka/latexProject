@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.3)  3 JAN 2021 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.3)  4 JAN 2021 15:05
 entering extended mode
 **f:/Latex/SFML/projekt.tex
 (f:/Latex/SFML/projekt.tex
@@ -1017,208 +1017,241 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) ("C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 13.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 14.
  ("C:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd"
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Overfull \hbox (5.05473pt too wide) in paragraph at lines 17--18
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (18.63493pt too wide) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) [7
+)) [7
 
 ]
 \mylength=\skip67
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (2.11615pt too wide) in paragraph at lines 205--205
+Overfull \hbox (2.11615pt too wide) in paragraph at lines 206--206
 []|\T1/cmss/m/n/12 Ksztaªt| 
  []
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 File: textures/circle.png Graphic file (type png)
 <use textures/circle.png>
-Package pdftex.def Info: textures/circle.png  used on input line 205.
+Package pdftex.def Info: textures/circle.png  used on input line 206.
 (pdftex.def)             Requested size: 26.87561pt x 26.19807pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []|\T1/cmss/m/n/8 sf::CircleShape
  []
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 File: textures/rect.png Graphic file (type png)
 <use textures/rect.png>
-Package pdftex.def Info: textures/rect.png  used on input line 205.
+Package pdftex.def Info: textures/rect.png  used on input line 206.
 (pdftex.def)             Requested size: 14.90579pt x 14.67995pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []|\T1/cmss/m/n/8 sf::RectangleShape
  []
 
 
-Overfull \hbox (2.25525pt too wide) in paragraph at lines 205--205
+Overfull \hbox (2.25525pt too wide) in paragraph at lines 206--206
 \T1/cmss/m/n/8 rect(sf::Vector2f(50.f,
  []
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-f:/Latex/SFML/projekt.tex:205: Missing $ inserted.
+f:/Latex/SFML/projekt.tex:206: Missing $ inserted.
 <inserted text> 
                 $
-l.205     \end{frame}
+l.206     \end{frame}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 File: textures/triangle.png Graphic file (type png)
 <use textures/triangle.png>
-Package pdftex.def Info: textures/triangle.png  used on input line 205.
+Package pdftex.def Info: textures/triangle.png  used on input line 206.
 (pdftex.def)             Requested size: 39.07126pt x 32.52174pt.
 
-Overfull \hbox (7.13461pt too wide) in paragraph at lines 205--205
+Overfull \hbox (7.13461pt too wide) in paragraph at lines 206--206
 []|\T1/cmss/m/n/8 window.draw(triangle);| 
  []
 
 [8
 
- <f:/Latex/SFML/textures/circle.png> <f:/Latex/SFML/textures/rect.png> <f:/Latex/SFML/textures/triangle.png>] [9
+ <f:/Latex/SFML/textures/circle.png> <f:/Latex/SFML/textures/rect.png> <f:/Latex/SFML/textures/triangle.png>]
+\openout4 = `projekt.vrb'.
+
+ (f:/Latex\SFML\projekt.vrb) [9
+
+]
+\openout4 = `projekt.vrb'.
+
+ (f:/Latex\SFML\projekt.vrb) [10
+
+]
+\openout4 = `projekt.vrb'.
+
+ (f:/Latex\SFML\projekt.vrb) [11
+
+]
+\openout4 = `projekt.vrb'.
+
+ (f:/Latex\SFML\projekt.vrb) [12
+
+]
+<textures/game1.png, id=340, 483.30562pt x 385.44pt>
+File: textures/game1.png Graphic file (type png)
+<use textures/game1.png>
+Package pdftex.def Info: textures/game1.png  used on input line 398.
+(pdftex.def)             Requested size: 159.49135pt x 127.19559pt.
+<textures/game2.png, id=341, 483.30562pt x 385.44pt>
+File: textures/game2.png Graphic file (type png)
+<use textures/game2.png>
+Package pdftex.def Info: textures/game2.png  used on input line 398.
+(pdftex.def)             Requested size: 159.49135pt x 127.19559pt.
+
+Overfull \hbox (10.84642pt too wide) in paragraph at lines 398--398
+[][] 
+ []
+
+
+Overfull \hbox (10.84642pt too wide) in paragraph at lines 398--398
+[]  
+ []
+
+[13
+
+ <f:/Latex/SFML/textures/game1.png> <f:/Latex/SFML/textures/game2.png>] [14
 
 ]
 \tf@nav=\write6
@@ -1241,17 +1274,17 @@ Package rerunfilecheck Info: Checksums for `projekt.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20898 strings out of 479624
- 380156 string characters out of 2875027
- 895380 words of memory out of 3000000
- 37539 multiletter control sequences out of 15000+200000
- 424673 words of font info for 80 fonts, out of 3000000 for 9000
+ 21032 strings out of 479624
+ 381930 string characters out of 2875027
+ 933367 words of memory out of 3000000
+ 37654 multiletter control sequences out of 15000+200000
+ 424212 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,14n,120p,450b,1389s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1728.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on f:/Latex\SFML\projekt.pdf (9 pages, 308105 bytes).
+ 125i,14n,120p,450b,1405s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ectt0800.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1728.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Paba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on f:/Latex\SFML\projekt.pdf (14 pages, 367746 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 848 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

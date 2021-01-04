@@ -286,7 +286,7 @@ int main()
         }
     playerCenter = sf::Vector2f(player.getPosition().x + player.getRadius(),
     player.getPosition().y + player.getRadius());
-    player.setPosition(sf::Mouse::getPosition(window).x,player.getPosition().y);
+    player.setPosition(sf::Mouse::getPosition(window).x, player.getPosition().y);
 
         if (shootTimer < 5)
             shootTimer++;
@@ -326,8 +326,7 @@ if (enemySpawnTimer < 20)
             enemySpawnTimer++;
 
         if (enemySpawnTimer >= 20) {
-            enemy.setPosition((rand() % int(window.getSize().x 
-            - enemy.getSize().x)), 0.f);
+            enemy.setPosition((rand() % int(window.getSize().x - enemy.getSize().x)), 0.f);
             enemies.push_back(sf::RectangleShape(enemy));
             enemySpawnTimer = 0;
         }
@@ -343,8 +342,7 @@ if (enemySpawnTimer < 20)
         //Collision
         for (size_t i = 0; i < projectiles.size(); i++) {
             for (size_t j = 0; j < enemies.size(); j++) {
-                if (projectiles[i].getGlobalBounds().
-                intersects(enemies[j].getGlobalBounds())) {
+                if (projectiles[i].getGlobalBounds().intersects(enemies[j].getGlobalBounds())) {
                     projectiles.erase(projectiles.begin() + i);
                     enemies.erase(enemies.begin() + j);
                     break;
@@ -388,15 +386,6 @@ if (enemySpawnTimer < 20)
         \end{lstlisting}
     \end{frame} 
   
-
-
-    \begin{frame}{Ekran gry}
-        \begin{multicols}{2}
-            \includegraphics[scale=0.33]{textures/game1.png}
-            \includegraphics[scale=0.33]{textures/game2.png}
-        \end{multicols}
-    \end{frame}
-
 
 
     \begin{frame}

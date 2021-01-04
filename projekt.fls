@@ -1325,12 +1325,11 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecss1095.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\t1cmtt.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt0800.tfm
 INPUT f:\Latex\SFML\textures\circle.png
 INPUT f:\Latex\SFML\textures\circle.png
 INPUT f:\Latex\SFML\textures\circle.png
@@ -1376,6 +1375,41 @@ INPUT f:\Latex\SFML\textures\triangle.png
 INPUT f:\Latex\SFML\textures\triangle.png
 INPUT f:\Latex\SFML\textures\triangle.png
 INPUT f:\Latex\SFML\textures\triangle.png
+OUTPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt0800.tfm
+OUTPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+OUTPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+OUTPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\projekt.vrb
+INPUT f:\Latex\SFML\textures\game1.png
+INPUT f:\Latex\SFML\textures\game1.png
+INPUT f:\Latex\SFML\textures\game1.png
+INPUT f:\Latex\SFML\textures\game1.png
+INPUT f:\Latex\SFML\textures\game1.png
+INPUT f:\Latex\SFML\textures\game1.png
+INPUT f:\Latex\SFML\textures\game1.png
+INPUT f:\Latex\SFML\textures\game2.png
+INPUT f:\Latex\SFML\textures\game2.png
+INPUT f:\Latex\SFML\textures\game2.png
+INPUT f:\Latex\SFML\textures\game2.png
+INPUT f:\Latex\SFML\textures\game2.png
+INPUT f:\Latex\SFML\textures\game2.png
+INPUT f:\Latex\SFML\textures\game2.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1440.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
@@ -1403,12 +1437,14 @@ INPUT f:\Latex\SFML\projekt.out
 INPUT f:\Latex\SFML\projekt.out
 INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1440.pk
 INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1440.pk
+INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi450\ectt0800.pk
+INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi450\ectt0800.pk
+INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0600.pk
+INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0600.pk
+INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.pk
+INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.pk
 INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0800.pk
 INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0800.pk
-INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
-INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
-INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1095.pk
-INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1095.pk
 INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsi1200.pk
 INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsi1200.pk
 INPUT C:\Users\Paba\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk
